@@ -9,12 +9,14 @@
 # packages, and plugins designed to encourage good coding practices.
 analyzer:
   errors:
+    body_might_complete_normally_nullable: ignore
     camel_case_types: ignore
     must_be_immutable: ignore
     non_constant_identifier_names: ignore
     prefer_const_constructors: ignore
     prefer_const_declarations: ignore
     prefer_const_literals_to_create_immutables: ignore
+    unused_field: ignore
 include: package:flutter_lints/flutter.yaml
 
 linter:

@@ -1,10 +1,8 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:mr_builder/app/auth/controller/auth_controller.dart';
 import 'package:mr_builder/app/auth/social_login/social_login.dart';
-import 'package:mr_builder/app/home/home_view.dart';
 import 'package:mr_builder/routes/app_pages.dart';
 import 'package:mr_builder/utils/app_buttons/app_buttons.dart';
 import 'package:mr_builder/utils/app_colors/app_colors.dart';
